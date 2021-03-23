@@ -1,0 +1,19 @@
+body{
+  padding:0;
+  border:0;
+  height:89.5vh;
+  outline:0;
+  margin: 50px auto;
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1445855743215-296f71d4b49c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size:  100% 100%;
+ 
+}
+
+#hello{
+  width:60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  height:60vh;
+  background-color:aquamarine;
+}
