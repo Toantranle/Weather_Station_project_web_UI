@@ -1,0 +1,89 @@
+body{
+  padding:0;
+  border:0;
+  height:89.5vh;
+  outline:0;
+  margin: 50px auto;
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1445855743215-296f71d4b49c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size:  100% 100%;
+  min-width: 50%;
+  min-height: 80vh;
+
+ 
+}
+
+#content{
+  margin-left: 100px;
+  text-align: center;
+  width: 100%;
+  height:5vh;
+  background-color: white;
+  margin-left: 100px;
+}
+#page1 {
+  width: 15%;
+  height: 40vh;
+  background: #00b3b3;
+  margin-left: 22.5%;
+  margin-top: 25vh;
+  border:none;
+  color:white;
+  background-image: url(https://images.unsplash.com/photo-1607430761793-6afe257fb43c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size: auto;
+  background-size:  100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  
+}
+
+h1{
+  font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#page2 {
+  width: 15%;
+  height: 40vh;
+  background: #00b3b3;
+  margin-left: 5%;
+  margin-top: 25vh;
+  border:none;
+  background-image: url(https://images.unsplash.com/photo-1508913449378-01b9b8174e46?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+  background-size: auto;
+  background-size:  100% 100%;
+  background-repeat: no-repeat;
+  color:white;
+  text-align: center;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;
+}
+
+#page3 {
+  width: 15%;
+  height: 40vh;
+  background: #00b3b3;
+  margin-left: 5%;
+  margin-top: 25vh;
+  border:none;
+  color:white;
+  background-image: url(https://images.unsplash.com/photo-1574275031373-4b6045144059?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80);
+  background-size: auto;
+  background-size:  100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;
+}
+
+div { position: relative; }
+div > #Day2 { position: absolute; left: 0; bottom: 0; }
+div > #Day1 { position: absolute; left: 0; bottom: 0; }
+
+div > #yesterday1 { position: absolute; left: 0; bottom: 40px; }
+div > #yesterday2 { position: absolute; left: 0; bottom: 40px; }
+
+div > #TempNow { position: absolute; right: 0; bottom: 0; }
+div > #TempYesterday { position: absolute; right: 0; bottom: 40px; }
+
+
+div > #feedback { position: absolute; left:29%; bottom: 40px; }
+
