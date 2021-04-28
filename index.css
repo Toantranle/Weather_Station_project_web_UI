@@ -1,0 +1,272 @@
+body{
+  padding:0;
+  border:0;
+  height:89.5vh;
+  outline:0;
+  margin: 0px;
+  height: 100vh;
+  
+}
+
+#page
+{
+  width:100%;
+  height:100vh; 
+  /* overflow: hidden; */
+  
+}
+
+
+
+/* #views{
+  margin-left: 10%;
+  width:100%;
+  float: right;
+  height:10vh;
+  background-color:white; 
+  position:fixed;
+} */
+
+#Tiers
+{
+  width: 10%;
+  height: 100vh;
+  background-color: white;
+  float:left;
+  position:fixed;
+}
+
+.Tier1
+{
+  width: 100%;
+  height: 10vh;
+  background-color:#3E64FF;
+  margin-top: 10vh;
+  text-align: center;
+  font-size:calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color:white;
+  border-radius: 50px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+#deco
+{
+  
+  width:90%;
+  padding:0;
+  border:0;
+  /* height:170vh;  */
+  outline:0;
+  margin-left: 10%;
+  /* margin-top: -13.5%; */
+  /* margin: 50px auto;
+  display: flex; */
+  /* background-color: black; */
+  
+}
+
+
+#chart
+{
+  color: white;
+  width: 100%;
+  /* height: 170vh; */
+  height:60vh;
+  /* margin-left:13%; */
+  /* height: 170vh; */
+  
+  /* display: flex; */
+  /* float:right; */
+  background-color: rgb(255, 255, 255);
+}
+
+#chart1{
+  width: 100%;
+  height: 50vh;
+  background-color:black;
+}
+
+#option
+{
+  width: 100%;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  height:10vh;
+  font-family: 'Time New Roman';
+  
+}
+
+#chart1
+{
+  width: 100%;
+  color:white;
+  background-color:rgb(255, 255, 255);
+}
+
+#contents
+{
+  width: 75%;
+  /* height: 170vh; */
+  
+  margin-left:13%;
+  /* display: flex; */
+  /* float:right; */
+  background-color: white;
+}
+
+
+
+/*               table_style                        */
+#ya {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  /* margin-top: 30vh; */
+}
+
+#ya tr {
+  background-color: #3E64FF;
+  color: #ffffff;
+  text-align: left;
+}
+
+#ya th,
+#ya td {
+    padding: 12px 15px;
+}
+
+#ya tbody tr {
+  border-bottom: 1px solid #373F5E;
+}
+
+#ya tbody tr:nth-of-type(even) {
+  background-color: #373F5E;
+}
+
+#ya tbody tr:last-of-type {
+  border-bottom: 2px solid #3E64FF;
+}
+
+#ya tbody tr.active-row {
+  font-weight: bold;
+  color: #3E64FF;
+}
+/*               table_style                        */
+
+
+/*               option_style                       */
+
+span.msg,
+span.choose {
+  color: #555;
+  padding: 5px 0 10px;
+  display: inherit
+}
+
+.dropdown {
+  width: 300px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all .5s ease;
+  position: relative;
+  font-size: 14px;
+  color: #474747;
+  height: 5vh;
+  text-align: center;
+}
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+.dropdown .select > i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+}
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.dropdown:active {
+    background-color: #f8f8f8
+}
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 2px 2px 0 0;
+    background-color: #f8f8f8
+}
+.dropdown.active .select > i {
+    transform: rotate(-90deg)
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9
+}
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+} 
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+
+
+/* end page */
+
+
+.feedback-section{
+  width:100%;
+
+}
+.feedback{
+  width:100%;
+  margin-top: 10 vh;
+  font-family: "Times New Roman";
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
+  outline: none;
+  font-size: 20px;
+  border-color: blue;
+}
+
+#submit_button
+{
+  width:25%;
+  background-color:#3E64FF;
+  color:white;
+}
+
+
+
+
+
+
